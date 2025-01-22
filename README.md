@@ -61,8 +61,6 @@ pacientes = [
 ]
 ## **Formato de Saída**
 
-A exibição inicial da fila de atendimento deve ser:
-
 ```
 Ordem de Atendimento
 
@@ -79,17 +77,10 @@ Baixa urgência:
 - Nome: Carla | Idade: 59 anos
 - Nome: Ana | Idade: 34 anos
 ```
----
-
-Ao chamar o método `proximo_paciente`, deve exibir:
 ```
 Próximo paciente
 - Nome: Pedro | Idade: 80 anos | Urgência: Alta
 ```
-
----
-
-Após o atendimento do próximo paciente, a fila deve ser exibida assim:
 
 ```
 Ordem de Atendimento
@@ -105,4 +96,3 @@ Média urgência:
 Baixa urgência:
 - Nome: Carla | Idade: 59 anos
 - Nome: Ana | Idade: 34 anos
-```
