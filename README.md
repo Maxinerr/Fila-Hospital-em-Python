@@ -76,13 +76,11 @@ Média urgência:
 Baixa urgência:
 - Nome: Carla | Idade: 59 anos
 - Nome: Ana | Idade: 34 anos
-```
-```
+
+
 Próximo paciente
 - Nome: Pedro | Idade: 80 anos | Urgência: Alta
-```
-
-```
+  
 Ordem de Atendimento
 
 Alta urgência:
