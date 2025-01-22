@@ -46,3 +46,39 @@ pacientes = [
     {"nome": "Pedro", "idade": 80, "urgencia": "alta"},
     {"nome": "Carla", "idade": 59, "urgencia": "baixa"}
 ]
+Formato de Saída
+A exibição inicial da fila de atendimento deve ser:
+
+Ordem de Atendimento
+
+Alta urgência:
+- Nome: Pedro | Idade: 80 anos
+- Nome: Maria | Idade: 72 anos
+- Nome: João | Idade: 65 anos
+
+Média urgência:
+- Nome: Lucas | Idade: 50 anos
+- Nome: Clara | Idade: 28 anos
+
+Baixa urgência:
+- Nome: Carla | Idade: 59 anos
+- Nome: Ana | Idade: 34 anos
+Ao chamar o método proximo_paciente, deve exibir:
+
+Próximo paciente
+- Nome: Pedro | Idade: 80 anos | Urgência: Alta
+Após o atendimento do próximo paciente, a fila deve ser exibida assim:
+
+Ordem de Atendimento
+
+Alta urgência:
+- Nome: Maria | Idade: 72 anos
+- Nome: João | Idade: 65 anos
+
+Média urgência:
+- Nome: Lucas | Idade: 50 anos
+- Nome: Clara | Idade: 28 anos
+
+Baixa urgência:
+- Nome: Carla | Idade: 59 anos
+- Nome: Ana | Idade: 34 anos
